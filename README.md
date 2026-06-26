@@ -4,7 +4,7 @@
 * **Backend:** Python con Flask + Flasgger (Documentación de API).
 * **Frontend:** SPA con HTML vainilla, CSS y JavaScript.
 * **Base de Datos:** SQLite para persistencia local.
-* **Pruebas:** `unittest` para lógica de API y `Playwright` para pruebas E2E.
+* **Pruebas:** unittest para lógica de API y Playwright para pruebas E2E.
 
 ## Dificultades y Soluciones
 1. **Entorno de ejecución:** Hubo problemas de rutas con el entorno virtual. Se solucionó activándolo correctamente con `.\.venv\Scripts\Activate.ps1` para usar las dependencias locales.
