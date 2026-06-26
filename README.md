@@ -22,4 +22,5 @@
 
 ## Deploy
 El proyecto está desplegado en **Render**, plataforma que permite ejecutar el servidor de Python junto a SQLite.
+
 Link: https://dietetica-spa.onrender.com/
