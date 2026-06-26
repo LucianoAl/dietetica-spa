@@ -21,4 +21,3 @@
 
 ## Deploy
 El proyecto está desplegado en **Render**, plataforma que permite ejecutar el servidor de Python junto a SQLite.
-- **URL del Deploy:** [AQUÍ IRÁ TU LINK DE RENDER]
