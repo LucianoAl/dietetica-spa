@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida Equilibrada - Dietética</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="/static/img/logoa.jpg" alt="Logo Dietética" class="logo-img" onerror="this.style.display='none'">
+        </div>
+        
+        <nav class="nav-menu">
+            <span onclick="cambiarVista('menu')" id="btn-menu" class="activo">PRODUCTOS</span>
+            <span onclick="cambiarVista('cart')" id="btn-cart">CARRITO (<span id="cart-count">0</span>)</span>
+        </nav>
+    </header>
+
+    <div id="vista-menu" class="vista">
+        <div class="productos" id="grilla-productos">
+            </div>
+        
+        <div class="floating-total">
+            Total: $<span id="total-flotante">0</span>
+        </div>
+    </div>
+
+    <div id="vista-cart" class="vista oculto">
+        <div class="cart-container">
+            <h2 class="cart-title">Total: $<span id="total-cart-page">0</span></h2>
+            
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th style="text-align: left;">Producto</th>
+                        <th>Cantidad</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody id="lista-carrito">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

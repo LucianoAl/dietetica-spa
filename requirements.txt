@@ -1,0 +1,4 @@
+Flask==3.0.0
+flasgger==0.9.7
+pytest==7.4.3
+playwright==1.40.0

@@ -1,0 +1,4 @@
+dietetica.db
+__pycache__/
+.venv/
+.env
